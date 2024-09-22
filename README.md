@@ -33,6 +33,7 @@
 - Reconfigures FIPS compliant SSH algorithms for IOS 15 & 17 to later enable FIPS mode.
 - For IOS 15 & 17:
   - Configures appropriate device tracking;
+  - Configures logging. If IOS 17, configures for RFC 5424 for TCP syslog instead of Cisco default RFC 3164;
   - Finds, defaults, and applies *dot1x access* interface config to trunk interfaces that are not in use;
   - Iterates access interfaces, removing unauthorized & unnessary lines;
 
