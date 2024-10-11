@@ -29,7 +29,7 @@
 - Reapplies `aaa new-model` *authentication*, *authorization*, and *accounting*.
 - Reconfigures VTY lines.
 - Configures "quiet mode" `login block-for` and associates `login quiet-mode access-class` to the *SSH* ACL so that hosts in those networks can still SSH into the switch when in quiet mode.
-- Miscellaneous STIG items such as dissabling non-secure and un-used features.
+- Miscellaneous STIG items such as disabling non-secure and un-used features.
 - Reconfigures FIPS compliant SSH algorithms for IOS 15 & 17 to later enable FIPS mode.
 - For IOS 15 & 17:
   - Configures appropriate device tracking;
