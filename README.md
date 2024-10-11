@@ -40,7 +40,7 @@
 - Globally configures spanning-tree without priority.
   - The administrator is prompted at the end of the script to verify & configure spanning-tree global priority if root; `spanning-tree guard root` on appropriate trunks.
     
-- Removes all posible `vlan-lists` for any combination of vlan IDs.
+- Removes all possible `vlan-lists` for any combination of vlan IDs.
 - Finds all globally configured vlans, then removes all that are not *management*, *access default*, *trunk native* IDs.
 - Checks the default gateway to apply site-specific ordering of Radius servers when reconfiguring `aaa group server radius` and `radius dynamic author`
 - Applies vlan globally and in trunks based on site-specific requirements determined from the default gateway.
